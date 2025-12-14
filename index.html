@@ -24,31 +24,42 @@
   </header>
 
   <!-- About Me -->
-  <section id="aboutMe">
+  <section id="aboutMe" class="reveal">
     <div class="about-container">
-      <img src="i.jpeg" alt="Ronit Patel">
+      <img src="i.jpeg" alt="Ronit Patel" />
       <div class="content">
         <h1>Ronit Patel</h1>
-        <h2>Front End Developer</h2>
+        <h2>Frontend Developer</h2>
         <p>
-          Computer Science student with a strong foundation in frontend development,<br>
-          skilled in building responsive and accessible web interfaces using React,<br>
-          Tailwind CSS, and JavaScript. Focused on clean, scalable code and delivering<br>
+          Computer Science student with a strong foundation in frontend development,
+          skilled in building responsive and accessible web interfaces using React,
+          Tailwind CSS, and JavaScript. Focused on clean, scalable code and delivering
           seamless user experiences.
         </p>
       </div>
     </div>
+    <div id="icon">
+    <a href="mailto:yourmail@gmail.com" title="Email">
+      <img src="Gmail.png" alt="Gmail">
+    </a>
+    <a href="https://www.linkedin.com/in/yourusername" target="_blank" title="LinkedIn">
+      <img src="link.png" alt="LinkedIn">
+    </a>
+    <a href="https://github.com/yourusername" target="_blank" title="GitHub">
+      <img src="git.png" alt="GitHub">
+    </a>
+  </div>
   </section>
 
   <!-- Projects -->
-  <section id="project">
+  <section id="project" class="reveal">
     <h1>My Projects</h1>
     <div class="pcontent">
       <div class="project-card">
         <h2>Let's Learn</h2>
         <p>A learning website to explore various topics.</p>
         <a href="https://ronitpatel-dev.github.io/let-s-learn/" target="_blank">
-          <img src="learn.jpeg" alt="Let's Learn Project">
+          <img src="learn.jpeg" alt="Let's Learn Project" />
         </a>
       </div>
 
@@ -56,64 +67,89 @@
         <h2>Bloomopedia</h2>
         <p>A static website that provides knowledge-based information.</p>
         <a href="https://ronitpatel-dev.github.io/Bloomopedia/" target="_blank">
-          <img src="bloo.jpeg" alt="Bloomopedia Project">
+          <img src="bloo.jpeg" alt="Bloomopedia Project" />
         </a>
       </div>
 
       <div class="project-card">
         <h2>Desktop Assistant</h2>
         <p>Jarvis-style desktop assistant built using Python.</p>
-        <img src="jarvis.jpeg" alt="Desktop Assistant">
+        <img src="jarvis.jpeg" alt="Desktop Assistant" />
       </div>
 
       <div class="project-card">
         <h2>Sign Language Detection</h2>
         <p>Deep learning-based sign language detection system.</p>
         <a href="https://github.com/ronitpatel-dev/SignLanguageDetection" target="_blank">
-          <img src="sin.jpg" alt="Sign Language Detection Project">
+          <img src="sin.jpg" alt="Sign Language Detection Project" />
         </a>
       </div>
     </div>
   </section>
 
   <!-- Skills -->
-  <section id="skill">
+  <section id="skill" class="reveal">
     <h1>Skills</h1>
     <div id="imgg">
-      <img src="html1.png" alt="HTML">
-      <img src="css.png" alt="CSS">
-      <img src="jss.png" alt="JavaScript">
-      <img src="php.png" alt="PHP">
-      <img src="pyt.png" alt="Python">
-      <img src="dbms.png" alt="DBMS">
+      <img src="html1.png" alt="HTML" />
+      <img src="css.png" alt="CSS" />
+      <img src="jss.png" alt="JavaScript" />
+      <img src="php.png" alt="PHP" /><br><br><br>
+      <img src="pyt.png" alt="Python" />
+      <img src="dbms.png" alt="DBMS" />
+      <img src="mongo.png" alt="MongoDB" />
+      <img src="framer.avif" alt="Framer" />
     </div>
   </section>
 
   <!-- Internship -->
-  <section id="intern">
+  <section id="intern" class="reveal">
     <h1>Internship</h1>
-    <h2>AICTE Internship</h2>
-    <img src="Insip.jpeg" alt="AICTE Internship" id="img1">
-    <p>Completed a certified internship program through AICTE portal.</p>
+
+    <div class="internship-container">
+      <div class="Cer">
+        <img src="Insip.jpeg" alt="AICTE Internship" id="img1" />
+        <p>
+          Completed an AI internship emphasizing machine learning fundamentals,
+          model implementation, and problem-solving using real datasets, enhancing
+          analytical and technical expertise.
+        </p>
+      </div>
+
+      <div class="Cer">
+        <img src="InFD.jpg" alt="AICTE Internship" />
+        <p>
+          Completed a Frontend Developer internship focused on building responsive
+          and user-friendly web interfaces.
+        </p>
+      </div>
+    </div>
   </section>
 
-  <!-- Contact -->
-  <section id="contact">
-    <h1>Contact Me</h1><br><br>
-    <form action="https://formspree.io/f/mblykdqd" method="POST" onsubmit="return handleSubmit()">
-      <input type="email" name="email" placeholder="Email" required><br><br>
-      <input type="text" name="name" placeholder="Name" required><br><br>
-      <textarea name="message" placeholder="Your Message" required></textarea><br><br>
-      <button type="submit">Send</button>
-    </form>
-  </section>
 
-  <script>
-    function handleSubmit() {
-      alert('Successfully Submitted!');
-      // Redirect after 0.5 second
-    }
-  </script>
+ <!-- Contact -->
+<section id="contact" class="reveal">
+  <h1>Contact Me</h1>
+  <form action="https://formspree.io/f/mblykdqd" method="POST">
+    <input type="email" name="email" placeholder="Email" required />
+    <br><br>
+    <input type="text" name="name" placeholder="Name" required />
+    <br><br>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <br><br>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+
+  <!-- Footer -->
+  <footer style="">
+
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
 
 </body>
+
 </html>
